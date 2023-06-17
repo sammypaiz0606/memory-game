@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+ document.addEventListener('DOMContentLoaded', () => {
     //card options
     const cardArray = [
       {
@@ -113,5 +113,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     createBoard()
-  })
+  });
   

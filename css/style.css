@@ -26,7 +26,7 @@ body {
     font-size: 2.5rem;
 }
 .section-content {
-    margin: 10px;
+
 }
 .section-content h2 {
     margin: 10px 0;
@@ -38,6 +38,15 @@ body {
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+}
+.buttonReset {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding:10px;
+    margin-top: 15px;
+    background: yellowgreen;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 600px) {
