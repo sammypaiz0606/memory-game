@@ -71,10 +71,10 @@ body {
     .buttonReset {
         display: flex;
         justify-content: center;
-        padding:2px;
+        padding:5px;
         margin-top: 10px;
         font-size: 1.2rem;
         position: relative;
-        top:92px;
+        top:95px;
     }
 }
