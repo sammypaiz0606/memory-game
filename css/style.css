@@ -46,8 +46,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding:10px;
-    margin-top: 15px;
+    margin-top: 5px;
     background: yellowgreen;
     font-size: 1.5rem;
 }
@@ -72,12 +71,10 @@ body {
     .buttonReset {
         display: flex;
         justify-content: center;
-        width: 100%;
-        padding:5px;
+        padding:2px;
         margin-top: 10px;
-        background: yellowgreen;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         position: relative;
-        top:100px;
+        top:92px;
     }
 }
