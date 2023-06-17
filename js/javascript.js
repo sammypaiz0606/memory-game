@@ -53,8 +53,11 @@
   
     cardArray.sort(() => 0.5 - Math.random())
   
-    const grid = document.querySelector('#grid')
-    const resultDisplay = document.querySelector('#result')
+    const grid = document.querySelector('#grid');
+    const resultDisplay = document.querySelector('#result');
+    const resultDisplay_2 = document.querySelector('#result-2');
+    const resultDisplay_3 = document.querySelector('#result-3');
+
     let cardsChosen = []
     let cardsChosenId = []
     let cardsWon = []
@@ -97,7 +100,8 @@
       cardsChosenId = []
       resultDisplay.textContent = cardsWon.length
       if  (cardsWon.length === cardArray.length/2) {
-        resultDisplay.textContent = 'Congratulations! You found them all!'
+        resultDisplay_2.textContent = 'Congratulations!';
+        resultDisplay_3.textContent = 'You got them all!';
       }
     }
   
