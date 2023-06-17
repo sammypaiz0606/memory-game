@@ -53,4 +53,22 @@ body {
     #grid {
         width: 300px;
     }
+    .title {
+        width: 100%;
+        padding-top: 5px;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    
+    }
+    .buttonReset {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding:5px;
+        margin-top: 10px;
+        background: yellowgreen;
+        font-size: 1.5rem;
+        position: relative;
+        top:100px;
+    }
 }
